@@ -5,6 +5,7 @@ function [x, n] = lap(g, a, b, error)
                     'hoặc khoảng phân ly [a, b] khác'], 'Lỗi');
         x = NaN; n = 0; return;
     end
+    
 
     n = 1;
     %x0 = (a+b)/2;
